@@ -1,8 +1,8 @@
+package software.xsolve.converterpattern.converter;
+
 import org.junit.Assert;
 import org.junit.Test;
 
-import software.xsolve.converterpattern.converter.AccountConverter;
-import software.xsolve.converterpattern.converter.AccountConverterImpl;
 import software.xsolve.converterpattern.domain.Account;
 import software.xsolve.converterpattern.dto.AccountDto;
 
