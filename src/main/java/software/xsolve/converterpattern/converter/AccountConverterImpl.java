@@ -20,8 +20,7 @@ public class AccountConverterImpl implements AccountConverter {
 	}
 
 	@Override
-	public Account updateEntity(final Account entity,
-								final AccountDto dto) {
+	public Account updateEntity(final Account entity, final AccountDto dto) {
 		return Account.builder()
 				.from(entity)
 				.setAccountType(dto.getAccountType())
